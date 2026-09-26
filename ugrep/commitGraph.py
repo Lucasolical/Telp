@@ -65,6 +65,6 @@ for p in ax.patches:
                     fontsize=10, fontweight='bold')
 
 plt.tight_layout()
-plt.savefig('grafico_commits.png', dpi=300)
+plt.savefig('grafico_commitsUGREP.png', dpi=300)
 # Exibe o gráfico
 plt.show()
