@@ -3,16 +3,16 @@ import pandas as pd
 
 # Dados fornecidos
 dados_raw = """    
-src/ugrep.cpp                                      45072        30545        75617       
-README.md                                          29602        23783        53385       
-configure                                          27583        14650        42233       
-lib/matcher.cpp                                    9851         6968         16819       
-vs/ugrep/ugrep/src/ugrep.cpp                       7299         7299         14598       
-lib/language_scripts.cpp                           12737        653          13390       
-lib/pattern.cpp                                    8546         3548         12094       
-tests/out/Hello_wsS-X-unkbT.out                    6099         4888         10987       
-src/query.cpp                                      7538         2957         10495       
-tests/out/Hello_-X-unkbT.out                       5063         3925         8988  
+uv.lock                                            7442         4358         11800       
+tests/test_basic.py                                4266         3670         7936        
+flask/app.py                                       4408         1997         6405        
+src/flask/app.py                                   3417         2013         5430        
+tests/flask_tests.py                               2703         2556         5259        
+tests/test_helpers.py                              2118         2400         4518        
+CHANGES.rst                                        2612         1722         4334        
+flask.py                                           2205         2069         4274        
+docs/quickstart.rst                                2289         1430         3719        
+flask/cli.py                                       2096         1131         3227
 """
 
 # Processamento dos dados
@@ -62,5 +62,5 @@ plt.legend(loc='lower right', frameon=True, facecolor='white', edgecolor='none')
 plt.grid(axis='x', linestyle='--', alpha=0.4)
 plt.tight_layout()
 
-plt.savefig('grafico_churn_Ugrep.png', dpi=300)
+plt.savefig('grafico_churn_Flask.png', dpi=300)
 plt.show()

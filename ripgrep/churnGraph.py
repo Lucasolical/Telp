@@ -61,5 +61,5 @@ plt.legend(loc='lower right', frameon=True, facecolor='white', edgecolor='none')
 plt.grid(axis='x', linestyle='--', alpha=0.4)
 plt.tight_layout()
 
-plt.savefig('grafico_churn_detalhado.png', dpi=300)
+plt.savefig('grafico_churn_Ripgrep.png', dpi=300)
 plt.show()

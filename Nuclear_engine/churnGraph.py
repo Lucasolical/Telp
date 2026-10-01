@@ -3,16 +3,16 @@ import pandas as pd
 
 # Dados fornecidos
 dados_raw = """    
-src/ugrep.cpp                                      45072        30545        75617       
-README.md                                          29602        23783        53385       
-configure                                          27583        14650        42233       
-lib/matcher.cpp                                    9851         6968         16819       
-vs/ugrep/ugrep/src/ugrep.cpp                       7299         7299         14598       
-lib/language_scripts.cpp                           12737        653          13390       
-lib/pattern.cpp                                    8546         3548         12094       
-tests/out/Hello_wsS-X-unkbT.out                    6099         4888         10987       
-src/query.cpp                                      7538         2957         10495       
-tests/out/Hello_-X-unkbT.out                       5063         3925         8988  
+Nuclear                                            626443       378735       1005178     
+Deps/GLEW/include/glew.h                           39506        39506        79012       
+Nuclear.Engine/Source/ThirdParty/angelscript/source/as_compiler.cpp 0            16517        16517       
+Nuclear.Engine/include/ThirdParty/zpp_bits.h       11030        4553         15583       
+Samples/Sample2.h                                  5940         5815         11755       
+Samples/Sample1.h                                  4140         3791         7931        
+Deps/GLEW/include/glxew.h                          3544         3544         7088        
+Nuclear.Engine/Source/Engine/Graphics/ImGUI/imgui.cpp 6521         533          7054        
+Samples/Assets/Common/Textures/HDR/newport_loft.hdr 3354         3354         6708        
+Nuclear.Engine/Source/ThirdParty/angelscript/source/as_scriptengine.cpp 0            6614         6614
 """
 
 # Processamento dos dados
@@ -62,5 +62,5 @@ plt.legend(loc='lower right', frameon=True, facecolor='white', edgecolor='none')
 plt.grid(axis='x', linestyle='--', alpha=0.4)
 plt.tight_layout()
 
-plt.savefig('grafico_churn_Ugrep.png', dpi=300)
+plt.savefig('grafico_churn_Nuclear.png', dpi=300)
 plt.show()

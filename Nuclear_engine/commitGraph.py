@@ -4,25 +4,9 @@ import seaborn as sns
 #Objetivo: Analisar o quanto o codigo está centralizado em apenas uma pessoa
 # 1. Dados em texto bruto
 raw_data = """
-803 Robert van Engelen
-10 Ricardo Ribalda
-6 Doug Cook
-5 Doug Cook (WINDOWS)
-3 Adrià Arrufat
-3 Maor Gordon
-3 Ricardo Ribalda Delgado
-2 Ashish SHUKLA
-2 Chris Moutsos
-2 Daniel Lange
-2 Francesco Camuffo
-2 Guillaume Outters
-2 Juho Pohjala
-2 Pierre Rouleau
-2 Ryan Caezar Itang
-2 VlkrS
-2 Érico Nogueira
-1 Alexander Sulfrian
-1 Andreas Stieger
+501	 zlixine moro
+281	 Ahmed Saied
+8 v7medz
 """
 
 # 2. Processamento do texto para um DataFrame
@@ -65,6 +49,6 @@ for p in ax.patches:
                     fontsize=10, fontweight='bold')
 
 plt.tight_layout()
-plt.savefig('grafico_commitsUGREP.png', dpi=300)
+plt.savefig('grafico_commitsNuclear.png', dpi=300)
 # Exibe o gráfico
 plt.show()
