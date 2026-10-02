@@ -2,8 +2,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 # Dados fornecidos
-dados_raw = """    
-Nuclear                                            626443       378735       1005178     
+dados_raw = """      
 Deps/GLEW/include/glew.h                           39506        39506        79012       
 Nuclear.Engine/Source/ThirdParty/angelscript/source/as_compiler.cpp 0            16517        16517       
 Nuclear.Engine/include/ThirdParty/zpp_bits.h       11030        4553         15583       
